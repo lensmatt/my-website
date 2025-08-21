@@ -432,7 +432,7 @@ footer p {
 }
 
 .small-a {
-  font-size: 0.8em; /* or any size you prefer */
+  font-size: 14px; /* or any size you prefer */
   vertical-align: middle;
   margin-right: 4px;
 }
