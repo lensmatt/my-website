@@ -464,6 +464,7 @@ footer p {
 
 
 #certifications .section__title {
+  text-align: center;
   font-size: 3rem;   /* Increase this as needed */
   font-weight: 700;  /* Optional: make it bold */
   margin-bottom: 1rem;
