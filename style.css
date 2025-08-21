@@ -60,6 +60,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  font-weight: bold;
 }
 
 .logo:hover {
@@ -435,4 +436,34 @@ footer p {
   font-size: 14px; /* or any size you prefer */
   vertical-align: middle;
   margin-right: 4px;
+}
+
+.certifications {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.certifications .section__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.certifications__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cert-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.cert-item p {
+  font-size: 0.95rem;
+  color: #666;
 }
