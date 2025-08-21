@@ -451,39 +451,20 @@ footer p {
   color: #333;
 }
 
-.certifications {
-  padding: 1rem 0;
-  margin: 2rem auto;
-  max-width: 700px;
-}
-
-.certifications .section__title {
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  color: #333;
-}
-
-.certifications__list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+.certifications__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem; /* Increased spacing between tiles */
+  font-size: 0.85rem;
+  color: #444;
+  padding: 0 1rem; /* Optional: adds side padding */
 }
 
 .cert-item {
-  padding: 0.5rem 0.75rem;
-  border-radius: 0.5rem;
-  background-color: #f2f2f2;
-}
-
-.cert-item h3 {
-  font-size: 1rem;
-  margin: 0 0 0.2rem 0;
-  color: #222;
-}
-
-.cert-item p {
-  font-size: 0.85rem;
-  margin: 0;
-  color: #555;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0; /* subtle border to separate */
+  text-align: center;
+  line-height: 1.3;
+  background-color: #fafafa;
 }
