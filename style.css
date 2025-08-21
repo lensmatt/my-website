@@ -470,13 +470,22 @@ footer p {
   margin-bottom: 1rem;
 }
 
-h2 {
-  margin-top: 0;
-  margin-bottom: 1rem;
+/* Center the entire section content */
+#research {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-/* Optional: Adjust section body padding more precisely if needed */
-#about, #experience, #certifications, #projects, #contact {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+/* Center the container inside */
+#research .research__container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 1.5rem;
+  padding-top: 1rem;
 }
