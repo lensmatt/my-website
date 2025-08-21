@@ -470,3 +470,13 @@ footer p {
   margin-bottom: 1rem;
 }
 
+h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Optional: Adjust section body padding more precisely if needed */
+#about, #experience, #certifications, #projects, #contact {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
